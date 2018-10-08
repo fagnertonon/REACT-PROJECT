@@ -23,16 +23,15 @@ const contacts = [
     "email": "tyler@reacttraining.com",
     "avatarURL": "http://localhost:5001/tyler.jpg"
   }
-] 
+]
 
 class App extends Component {
-  
 
   render() {
     return (
       <div>
-        <ListContacts contacts={contacts}/>
-        </div>
+        <ListContacts contacts={contacts} />
+      </div>
     )
   }
 }
